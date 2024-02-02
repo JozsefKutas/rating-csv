@@ -1,11 +1,14 @@
 # rating-csv
 
-rating-csv converts XBRL files using the Record of Credit Ratings (ROCR)
+This script converts XBRL files using the Record of Credit Ratings (ROCR)
 taxonomy to CSV. XBRL rating history files can be downloaded from the following
 locations:
 - S&P: https://disclosure.spglobal.com/ratings/en/regulatory/ratingshistory
 - Moody's: https://ratings.moodys.com/sec-17g-7b
 - Fitch: https://www.fitchratings.com/ratings-history-disclosure
+
+The XBRL files include rating outstanding as of June 15, 2012, and subsequent
+rating changes not within 24 months of the present date.
 
 For more information, see https://www.sec.gov/structureddata/rocr-publication-guide
 
